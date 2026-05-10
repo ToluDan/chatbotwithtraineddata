@@ -1,5 +1,6 @@
 # Importing required libraries
 import json, os, nltk, random, torch
+# import json, os, nltk, random , torch
 import numpy as np
 import torch.nn as nn
 
@@ -20,10 +21,15 @@ from nltk.stem import WordNetLemmatizer
 # punkt -> tokenizer
 # wordnet -> dictionary for lemmatization
 # omw-1.4 -> multilingual support for wordnet
+# nltk.download('punkt')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
+import nltk
+
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
-
 
 # =========================
 # NEURAL NETWORK MODEL
