@@ -472,27 +472,27 @@ if __name__ == '__main__':
     Entry point of the chatbot application.
     """
 
-    assistant = ChatBotAssistant('responseplusquestions.json', function_mapping= {'stocks':get_stocks})
-    assistant.parse_intents()
-    assistant.prepare_data()
-    assistant.train_data (batch_size =8, lr=0.001, epochs =100) 
+    # assistant = ChatBotAssistant('responseplusquestions.json', function_mapping= {'stocks':get_stocks})
+    # assistant.parse_intents()
+    # assistant.prepare_data()
+    # assistant.train_data (batch_size =8, lr=0.001, epochs =100) 
 
-    assistant.save_my_model('chatbot_model.pth','dimesions.json')
+    # assistant.save_my_model('chatbot_model.pth','dimesions.json')
 
     # Create chatbot object
-    # assistant = ChatBotAssistant(
-    #     'responseplusquestions.json',
-    #     function_mapping={'stocks': get_stocks}
-    # )
+    assistant = ChatBotAssistant(
+        'responseplusquestions.json',
+        function_mapping={'stocks': get_stocks}
+    )
 
-    # # Load intents and vocabulary
-    # assistant.parse_intents()
+    # Load intents and vocabulary
+    assistant.parse_intents()
 
-    # # Load saved trained model
-    # assistant.load_model(
-    #     'chatbot_model.pth',
-    #     'dimesions.json'
-    # )
+    # Load saved trained model
+    assistant.load_model(
+        'chatbot_model.pth',
+        'dimesions.json'
+    )
 
     # Chat loop
     while True:
