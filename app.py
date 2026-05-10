@@ -5,11 +5,11 @@ from Minichatbot import ChatBotAssistant, get_stocks
 # PAGE CONFIG
 # =========================
 st.set_page_config(
-    page_title="AI Chatbot",
+    page_title="Tee's Chatbot",
     page_icon="🤖"
 )
 
-st.title("🤖 AI Chatbot")
+st.title("🤖 Tee's Chatbot")
 
 # =========================
 # LOAD CHATBOT
