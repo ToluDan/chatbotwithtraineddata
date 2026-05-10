@@ -1,0 +1,290 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "hey there",
+        "yo",
+        "hiya",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "how far",
+        "what's good",
+        "sup",
+        "hello bot",
+        "hello assistant",
+        "anyone there",
+        "hi chatbot",
+        "hey bot",
+        "greetings",
+        "nice seeing you",
+        "howdy"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey!",
+        "Greetings!",
+        "Nice to see you!"
+      ]
+    },
+
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "how is your day going",
+        "how have you been",
+        "what's up",
+        "how far",
+        "how you dey",
+        "how are things",
+        "you good",
+        "how do you feel",
+        "are you okay",
+        "how is everything",
+        "what's happening",
+        "what's going on",
+        "how are things with you"
+      ],
+      "responses": [
+        "I'm doing great!",
+        "I'm fine, thanks for asking!",
+        "Everything is going well!",
+        "I'm doing awesome today!",
+        "All good here!"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see you",
+        "talk to you later",
+        "catch you later",
+        "farewell",
+        "i am leaving",
+        "i have to go",
+        "later",
+        "peace out",
+        "bye bye",
+        "have a good day",
+        "good night"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!",
+        "Bye!",
+        "Have a great day!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "i appreciate it",
+        "thank you so much",
+        "many thanks",
+        "cheers",
+        "nice one",
+        "you helped me",
+        "thanks for helping",
+        "big thanks",
+        "appreciate you"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "Glad I could help!",
+        "No problem!"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "tell me your name",
+        "what should i call you",
+        "do you have a name",
+        "your name",
+        "who am i talking to",
+        "introduce yourself"
+      ],
+      "responses": [
+        "I'm your AI chatbot assistant.",
+        "You can call me AI Chatbot.",
+        "I'm an intelligent assistant created with Python and PyTorch."
+      ]
+    },
+
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you",
+        "who made you",
+        "who built you",
+        "who is your developer",
+        "who owns you",
+        "who trained you",
+        "who programmed you"
+      ],
+      "responses": [
+        "I was built by a Python developer learning AI engineering.",
+        "My creator built me using PyTorch and NLP.",
+        "I was created as an AI chatbot project."
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "can you help me",
+        "i need help",
+        "what can you do",
+        "how do you work",
+        "assist me",
+        "show me what you can do",
+        "how can you help",
+        "support",
+        "please help"
+      ],
+      "responses": [
+        "I can chat with you and answer simple questions.",
+        "I can respond to greetings, questions, and custom commands.",
+        "I'm here to assist you however I can!"
+      ]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "say something funny",
+        "i want a joke",
+        "another joke",
+        "funny joke",
+        "give me a joke",
+        "can you joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "Why did the AI go to school? To improve its deep learning!",
+        "I told my neural network a joke... it still needs training to understand it."
+      ]
+    },
+
+    {
+      "tag": "stocks",
+      "patterns": [
+        "show me stocks",
+        "stock market",
+        "give me stocks",
+        "stock recommendations",
+        "top stocks",
+        "popular stocks",
+        "what stocks should i watch",
+        "suggest stocks",
+        "tech stocks",
+        "stock picks"
+      ],
+      "responses": [
+        "Here are some stocks you may like.",
+        "Let me show you some stock options.",
+        "These are some trending stocks."
+      ]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": [
+        "what is the weather",
+        "weather today",
+        "is it raining",
+        "how is the weather",
+        "forecast",
+        "weather update",
+        "temperature today",
+        "tell me the weather",
+        "is it sunny"
+      ],
+      "responses": [
+        "I don't have live weather access yet.",
+        "Weather integration is coming soon!",
+        "I cannot check weather data right now."
+      ]
+    },
+
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "what is your age",
+        "when were you created",
+        "are you old",
+        "how long have you existed"
+      ],
+      "responses": [
+        "I am still very young in AI years!",
+        "I was recently created.",
+        "I'm a modern AI chatbot project."
+      ]
+    },
+
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "your abilities",
+        "your features",
+        "what are your capabilities",
+        "what functions do you have",
+        "what do you know"
+      ],
+      "responses": [
+        "I can answer questions, chat, and run simple functions.",
+        "I can understand intents and respond intelligently.",
+        "I'm learning to become more advanced over time."
+      ]
+    },
+
+    {
+      "tag": "unknown",
+      "patterns": [
+        "book me a flight",
+        "translate this to french",
+        "solve calculus",
+        "play music",
+        "open youtube",
+        "hack facebook",
+        "buy bitcoin",
+        "write my exam",
+        "drive a car",
+        "cook rice"
+      ],
+      "responses": [
+        "I don't understand that yet.",
+        "I'm not trained for that request yet.",
+        "That functionality is not available currently."
+      ]
+    }
+
+  ]
+}
